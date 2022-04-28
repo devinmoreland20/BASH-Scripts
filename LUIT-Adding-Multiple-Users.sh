@@ -1,5 +1,5 @@
 #!/bin/bash
-#This is a script to add a new user to our server with a defualt home directory. 
+#This is a script to add multiple users to our server with a defualt home directory. 
 
 if [ $# -eq 0 ]
 then
@@ -24,3 +24,7 @@ for i in $@ ; do sudo useradd -m $i ; done
   echo "Users Created"
 fi
 
+
+
+#Started off adding an if statement so that the user will be sure to input at least one username
+#Then added a for loop so that sudo useradd would make multiple users. 
