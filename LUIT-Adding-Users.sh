@@ -17,4 +17,4 @@ sudo useradd -m $name
 	echo "Created user $name!"
 fi
 
-#Goal is to make this allow me to keep entering username without having to rerun the script. 
+#Goal is to make this allow me to keep entering username without having to rerun the script, however I will attempt to fix this once I have a better understanding of vim.. 
